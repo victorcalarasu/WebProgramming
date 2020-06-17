@@ -1,0 +1,190 @@
+.right-col3-wrapper{
+	width:auto;
+	height:380px;
+	background-color:#fafafa;
+	border-radius:2px;
+	margin-bottom:30px
+}
+
+.rightcol-title{
+	width:100%;
+	height:5%;
+	padding:10px;
+}
+
+.rightcol-title p{
+	display:inline;
+	margin-top:20px;
+	margin-left:8px;
+	font-weight:600;
+	font-size:20px;
+}
+
+.rightcol1{
+	overflow:hidden;
+	width:100%;
+	height:23%;
+	border-top:2px solid #e1e1e1;
+}
+
+.rightcol1 img{
+	margin-top:15px;
+	margin-left:5px;
+	height:60px;
+	width:60px;
+	border-radius:35px;
+	border:5 px solid white;
+}
+.rightcol2{
+	width:100%;
+	height:23%;
+	border-top:2px solid #e1e1e1;
+	overflow:hidden;
+}
+
+.rightcol2 img{
+	margin-top:15px;
+	margin-left:5px;
+	height:60px;
+	width:60px;
+	border-radius:35px;
+	border:5 px solid white;
+}
+
+.rightcol3{
+	width:100%;
+	height:23%;
+	border-top:2px solid #e1e1e1;
+	border-bottom:2px solid #e1e1e1;
+	
+}
+
+.rightcol3 img{
+	margin-top:15px;
+	margin-left:5px;
+	height:60px;
+	width:60px;
+	border-radius:35px;
+	border:5 px solid white;
+}
+.findpeople{
+	display:inline;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+
+.rightinfo{
+	display:flex;
+	height:auto;
+	width:75%;
+	float:right;
+}
+
+.rightname{
+	font-weight:800;
+	font-size:18px;
+}
+
+.rightuser{
+	font-size:15px;
+	margin-top:19px;
+	color:#808080;
+}
+.followbutton{
+	width:35%;
+	text-align:center;
+	margin-left:70px;
+	margin-top:-35px;
+	margin-bottom:80px;
+	height:30px;
+	color:#2598FF;
+	border-radius:60px;
+	border:2px solid;
+	line-height:9px;
+}
+
+.followtext{
+	margin-top:-15px;
+	font-weight:300;
+}
+
+.findpeople img{
+	width:30px;
+	height:30px;
+	float:left;
+	margin-left:15px;
+	margin-top:23px;
+}
+
+.findpeople p{
+	margin-top:30px;
+	margin-left:5px;
+	font-size:15px;
+	color:#2598FF;
+}
+
+.copyright-wrapper{
+	width:auto;
+	height:130px;
+	background-color:white;
+}
+
+.copyrights p{
+	padding:10px;
+	font-size:13px;
+	color:#808080;
+	border-bottom:2px solid #e1e1e1;
+	
+}
+
+.advertise{
+	display:inline;
+	height:auto;
+	width:90%;
+}	
+
+.advertise img{
+	height:17px;
+	width:17px;
+	margin-left:15px;
+	margin-right:10px;
+	margin-bottom:3px;
+	float:left;
+	
+}
+
+.rightadv p{
+	margin-left:15px;
+	margin-top:5px;
+	font-size:13px;
+	float:center;
+	color:#2598FF;
+	
+}
+
+.exit{
+	font-size:13px;
+	color:#d0d0d0;
+	margin-left:80px;
+	margin-top:20px;
+}
+
+.exitd{
+	font-size:13px;
+	color:#d0d0d0;
+	margin-left:48px;
+	margin-top:20px;
+}
+
+.exitp{
+	font-size:13px;
+	color:#d0d0d0;
+	margin-left:88px;
+	margin-top:20px;
+}
+
+
+
+
+

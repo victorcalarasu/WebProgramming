@@ -1,0 +1,154 @@
+.followers-box{
+	height:220px;
+	width: auto;
+	position:relative;
+	overflow:hidden;
+	margin-right:10px;
+	background-color:#fafafa;
+	border-radius:2px;
+	margin-bottom:10px;
+}
+
+.followers-box-banner{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	right:0px;
+	height:45%;
+	z-index: 1;
+	background-color:#98FB98;
+}
+
+.followers-box-user-info-wrapper{
+	height:70%;
+	width:auto;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	z-index: 1000!important;
+}
+
+.followers-box-toolbar{
+	height:50%;
+	display:block;
+	width:auto;
+	padding:0 10px 0 10px;
+	margin-bottom:10px;
+}
+
+.followers-box-user-icon-wrapper{
+	height:50%;
+	display:block;
+	width:auto;
+	overflow:hidden;
+}
+
+.followers-box-user-icon{
+	height:60px;
+	width:60px;
+	float:left;
+	background-color:white;
+	border-radius:35px;
+	margin-top: 10px;
+	margin-left:10px;
+}
+
+.followers-box-user-icon img{
+	width: 60px;
+	height:auto;
+	overflow:hidden;
+	border-radius:35px;
+	border:5 px solid white;
+}
+
+.followers-box-user-name{
+	margin-left:15px;
+	float: left;
+	margin-top:40px;
+}
+
+.followers-box-user-name p{
+	padding: 0px;
+	margin: 0px;
+}
+
+.followers-box-user-name p.user-text-name{
+	font-size:1.0em;
+	font-weight:800;
+}
+
+.followers-box-user-name p.user-name{
+	font-size:0.8em;
+	font-weight:300;
+}
+
+.followers-box-toolbar-col1, .followers-box-toolbar-col2, .followers-box-toolbar-col3{
+	width:33%;
+	float:left;
+	height:60px;
+	margin-top:15px;
+}
+
+.tweets-toolbar-title{
+	font-size:0.9em;
+	display:block;
+	margin:0 5px 0 5px;
+	color:#323642;
+	font-weight:700;
+}
+
+.tweets-toolbar-count{
+	font-size:1.0em;
+	display:block;
+	margin:8px 5px 0 8px;
+	color:#2598FF;
+	font-weight:600;
+}
+
+
+
+.trending-box{
+	height:240px;
+	width: auto;
+	margin-top:10px;
+	margin-right:10px;
+	background-color:#fafafa;
+	border-radius:2px;
+	padding:10px;
+	
+}
+
+.trending-box p{
+	display:inline;
+}
+
+.top-text{
+	margin-top:5px;
+	margin-left:5px;
+	font-size:20px;
+	font-weight:700;
+	display:inline;
+	
+}
+
+.dot{
+	display:inline;
+	font-size:13px;
+	color:#2598FF;
+}
+
+.trending-box li{
+	list-style-type:none;
+	font-size:17px;
+	font-weight:650;
+	text-align:left;
+	margin: 10px 0;
+	color:#2598FF;
+}
+
+.trending-box ul{
+	padding:0;
+}
+
+

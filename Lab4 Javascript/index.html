@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 4 WP</title>
+<style>
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 4px solid black;
+  background-color:white;
+  margin-top:250px;
+}
+
+th, td {
+  text-align: center;
+  padding: 15px;
+  font-size:18px;
+}
+
+body{
+	background-color:#FFC0CB;
+}
+
+</style>
+</head>
+<body>
+<table id="labwork">
+  <tr> 
+    <th onclick="sortTable(0)">Student</th>
+    <th onclick="sortTable(1)">Average</th>
+	<th onclick="sortTable(2)">Year</th>
+  </tr>
+  <tr>
+    <td>Pop Alex</td>
+    <td>9.33</td>
+	<td>1</td>
+  </tr>
+  <tr>
+    <td>Branea Alexandru</td>
+    <td>6.69</td>
+	<td>2</td>
+  </tr>
+  <tr>
+    <td>Ceaca Radu</td>
+    <td>9.90</td>
+	<td>2</td>
+  </tr>
+  <tr>
+    <td>Candet Andrei</td>
+    <td>9.25</td>
+	<td>2</td>
+  </tr>
+  <tr>
+    <td>Shrek</td>
+    <td>4.20</td>
+	<td>3</td>
+  </tr>
+  <tr>
+    <td>Blaga Lucian</td>
+    <td>5.50</td>
+	<td>4</td>
+  </tr>
+  <tr>
+    <td>Beligan Radu</td>
+    <td>7.45</td>
+	<td>1</td>
+  </tr>
+</table>
+
+<script>
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("labwork");
+  switching = true;
+  dir = "asc"; 
+  while (switching) {
+    switching = false;
+    rows = table.rows;
+    for (i = 1; i < (rows.length - 1); i++) {
+      shouldSwitch = false;
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          shouldSwitch = true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      switchcount ++;      
+    } else {
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+
+</body>

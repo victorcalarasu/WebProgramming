@@ -1,0 +1,30 @@
+body{
+	background-color:#e6ecf0;
+}
+
+#block{
+	resize:both;
+	overflow:auto;
+	position:absolute;
+	border-style:solid;
+	border-width:2px;
+	margin-left:750px;
+	margin-top:300px;
+	display:none;
+}
+
+#container{
+	width:90%;
+	height:90%;
+	margin-top:5%;
+	margin-left:5%;
+	background-color:blue;
+	border:1px solid red;
+	z-index:1;
+}
+
+h3{
+	font-size:26px;
+	padding:18px;
+	border-bottom:1px solid black;
+}
